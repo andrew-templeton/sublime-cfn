@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{ "Fn::Select" : [ "0", { "Fn::GetAZs" : {"Ref": "AWS::Region"} } ] }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>azalpha</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.json</scope>
+	<description>AZ Alpha</description>
+</snippet>
